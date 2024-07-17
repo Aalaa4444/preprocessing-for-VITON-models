@@ -33,4 +33,4 @@ models
 ```bash
 bin\OpenPoseDemo.exe --image_dir examples\media --hand --write_images output\ --write_json output\ --disable_blending
 ```
-
+3- optional: delete all examples that in folder examples\media

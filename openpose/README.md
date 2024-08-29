@@ -11,28 +11,6 @@ After downloading the main models, the structure of your models directory should
 ```bash
 models
 |-- face 
-    |-- pose_iter_116000.caffemodel
-    |-- ...
-
-|-- hand
-    |-- pose_iter_102000.caffemodel
-    |-- ...
-
-|-- pose
-    |-- body
-        |-- pose_iter_584000.caffemodel
-        |-- ...
-    |-- coco
-        |-- pose_iter_440000.caffemodel
-        |-- ...
-    |-- mpi
-        |-- pose_iter_160000.caffemodel
-        |-- ...
-|-- ...
-```
-```bash
-models
-|-- face 
 |   |-- pose_iter_116000.caffemodel
 |-- hand
 |   |-- pose_iter_102000.caffemodel

@@ -8,7 +8,7 @@ import cv2
 import ailia
 
 # import original modules
-sys.path.append('../../util')
+sys.path.append('../util')
 import webcamera_utils  # noqa: E402
 from utils import get_base_parser, update_parser, get_savepath  # noqa: E402
 from model_utils import check_and_download_models  # noqa: E402

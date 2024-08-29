@@ -13,6 +13,8 @@ It converts the model's output to a binary mask, removes padding from the mask, 
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/cloth_mask/cloth.jpg" width="200">     
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/cloth_mask/cloth-mask.jpg" width="200">    
 </p>
+
 ## 2- image-parse-v3
+
 ## 3- Openpose
 ## 4- DensePose

@@ -18,7 +18,7 @@ It is a detailed semantic parsing of an image to identify and segment different 
 * Images are loaded and preprocessed (e.g., resized, normalized, and sometimes augmented to ensure consistency) to match the model's requirements. The segmentation models (U-Net, DeeplabV3+, and HRNet) are then given the preprocessed images. These models provide segmented masks that represent various body parts, including the head, chest, arms, legs, and occasionally finer features like hands and feet. The segmented masks are refined and used to guide the overlay of clothing items in the VITON-HD framework.
 <p align="middle">     
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/test_img.jpg" width="200">     
-    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/cloth_mask/cloth-mask.jpg" width="200">    
+    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/image_parse/densepose.png" width="200">    
 </p>
 ## 3- Openpose
 using human pose estimation models (OpenPose 1.17), This preprocessing step involves detecting key points on the human body to accurately map the clothing onto the person.

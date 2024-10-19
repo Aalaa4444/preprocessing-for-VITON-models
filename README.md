@@ -22,10 +22,10 @@ using human pose estimation models (OpenPose 1.17), This preprocessing step invo
 OpenPose is open-source tool for real-time multi-person keypoint detection. It provides keypoints for the entire body, including the face, hands, and body joints. The key points detected by OpenPose serve as crucial inputs for generating precise clothing alignment in virtual try-on applications. 
 * The keypoints detected by OpenPose are fundamental for:
   * Pose Estimation: Accurate detection of body posture and orientation.
-*  Clothing Alignment: Ensuring that clothing items are correctly placed and deformed according to the person's pose.
+  *  Clothing Alignment: Ensuring that clothing items are correctly placed and deformed according to the person's pose.
 * Output of OpenPose 1.17
-•	JSON Files: contains detailed keypoint data for corresponding images. This data includes coordinates for body, face, and hand keypoints, which are critical for precise clothing alignment.
-•	Images:  include visual representations of detected keypoints.
+  *	JSON Files: contains detailed keypoint data for corresponding images. This data includes coordinates for body, face, and hand keypoints, which are critical for precise clothing alignment.
+  * Images:  include visual representations of detected keypoints.
 
 ## 4- DensePose
 DensePose is a project created by Facebook AI Research (FAIR) that tries to map all human pixels in an RGB image to the 3D surface of the human body.

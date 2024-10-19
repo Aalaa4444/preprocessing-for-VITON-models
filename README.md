@@ -27,7 +27,7 @@ Robust performances were The models are trained on big datasets, ensuring consis
 It can be used in a variety of disciplines, including augmented reality, virtual try-on, human-computer interaction, video analysis, gaming, AR/VR, and fashion.
 
 The advantages of using DensePose are that it improves human understanding by improving our comprehension of human poses by mapping each pixel to a 3D body surface.
-** Models used in DensePose 
+* Models used in DensePose 
 DensePose uses a variety of deep learning models to do its tasks. The main models use the ResNet architecture, specifically:
 1. DensePose R-CNN: This model combines the DensePose pipeline with the region-based convolutional neural network architecture.
 2. ResNet101 FPN (Feature Pyramid Network) is a feature extraction algorithm that balances speed and accuracy.

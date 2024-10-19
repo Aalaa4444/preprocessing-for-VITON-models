@@ -18,6 +18,14 @@ It is a detailed semantic parsing of an image to identify and segment different 
 * Images are loaded and preprocessed (e.g., resized, normalized, and sometimes augmented to ensure consistency) to match the model's requirements. The segmentation models (U-Net, DeeplabV3+, and HRNet) are then given the preprocessed images. These models provide segmented masks that represent various body parts, including the head, chest, arms, legs, and occasionally finer features like hands and feet. The segmented masks are refined and used to guide the overlay of clothing items in the VITON-HD framework.
 
 ## 3- Openpose
+using human pose estimation models (OpenPose 1.17), This preprocessing step involves detecting key points on the human body to accurately map the clothing onto the person.
+OpenPose is open-source tool for real-time multi-person keypoint detection. It provides keypoints for the entire body, including the face, hands, and body joints. The key points detected by OpenPose serve as crucial inputs for generating precise clothing alignment in virtual try-on applications. 
+* The keypoints detected by OpenPose are fundamental for:
+•	Pose Estimation: Accurate detection of body posture and orientation.
+•	Clothing Alignment: Ensuring that clothing items are correctly placed and deformed according to the person's pose.
+* Output of OpenPose 1.17
+•	JSON Files: contains detailed keypoint data for corresponding images. This data includes coordinates for body, face, and hand keypoints, which are critical for precise clothing alignment.
+•	Images:  include visual representations of detected keypoints.
 
 ## 4- DensePose
 DensePose is a project created by Facebook AI Research (FAIR) that tries to map all human pixels in an RGB image to the 3D surface of the human body.
@@ -27,7 +35,7 @@ Robust performances were The models are trained on big datasets, ensuring consis
 It can be used in a variety of disciplines, including augmented reality, virtual try-on, human-computer interaction, video analysis, gaming, AR/VR, and fashion.
 
 The advantages of using DensePose are that it improves human understanding by improving our comprehension of human poses by mapping each pixel to a 3D body surface.
-* Models used in DensePose 
+* Models used in DensePose : 
 DensePose uses a variety of deep learning models to do its tasks. The main models use the ResNet architecture, specifically:
 1. DensePose R-CNN: This model combines the DensePose pipeline with the region-based convolutional neural network architecture.
 2. ResNet101 FPN (Feature Pyramid Network) is a feature extraction algorithm that balances speed and accuracy.

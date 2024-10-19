@@ -31,7 +31,7 @@ OpenPose is open-source tool for real-time multi-person keypoint detection. It p
   * Images:  include visual representations of detected keypoints.
 <p align="middle">     
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/test_img.jpg" width="200">     
-    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/cloth_mask/cloth-mask.jpg" width="200">    
+    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/openpose/openpose.png" width="200">    
 </p>
 ## 4- DensePose
 DensePose is a project created by Facebook AI Research (FAIR) that tries to map all human pixels in an RGB image to the 3D surface of the human body.
@@ -47,6 +47,6 @@ DensePose uses a variety of deep learning models to do its tasks. The main model
 2. ResNet101 FPN (Feature Pyramid Network) is a feature extraction algorithm that balances speed and accuracy.
 3. ResNet50 FPN is a lighter variant of ResNet101, resulting in faster inference times but reduced accuracy.
 <p align="middle">     
-    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/cloth_mask/cloth.jpg" width="200">     
-    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/cloth_mask/cloth-mask.jpg" width="200">    
+    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/densepose/densepose_output.png" width="200">     
+    <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/densepose/image.png" width="200">    
 </p>

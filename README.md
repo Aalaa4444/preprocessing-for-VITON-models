@@ -14,6 +14,8 @@ Performs inference using the pre-trained model to obtain a segmentation mask.
 </p>
 
 ## 2- image-parse-v3
+It is a detailed semantic parsing of an image to identify and segment different human body parts, distinguishing between different regions like the head, torso, arms, and legs.
+• Images are loaded and preprocessed (e.g., resized, normalized, and sometimes augmented to ensure consistency) to match the model's requirements. The segmentation models (U-Net, DeeplabV3+, and HRNet) are then given the preprocessed images. These models provide segmented masks that represent various body parts, including the head, chest, arms, legs, and occasionally finer features like hands and feet. The segmented masks are refined and used to guide the overlay of clothing items in the VITON-HD framework.
 
 ## 3- Openpose
 ## 4- DensePose

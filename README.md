@@ -20,6 +20,7 @@ It is a detailed semantic parsing of an image to identify and segment different 
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/test_img.jpg" width="200">     
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/image_parse/densepose.png" width="200">    
 </p>
+
 ## 3- Openpose
 using human pose estimation models (OpenPose 1.17), This preprocessing step involves detecting key points on the human body to accurately map the clothing onto the person.
 OpenPose is open-source tool for real-time multi-person keypoint detection. It provides keypoints for the entire body, including the face, hands, and body joints. The key points detected by OpenPose serve as crucial inputs for generating precise clothing alignment in virtual try-on applications. 
@@ -33,6 +34,7 @@ OpenPose is open-source tool for real-time multi-person keypoint detection. It p
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/test_img.jpg" width="200">     
     <img src="https://github.com/Aalaa4444/preprocessing-for-VITON-models/blob/main/openpose/openpose.png" width="200">    
 </p>
+
 ## 4- DensePose
 DensePose is a project created by Facebook AI Research (FAIR) that tries to map all human pixels in an RGB image to the 3D surface of the human body.
 Unlike typical pose estimation approaches that predict key points, DensePose performs dense human body pose estimation, providing a pixel-to-surface correspondence. This allows for a more detailed and precise understanding of human poses in images.
